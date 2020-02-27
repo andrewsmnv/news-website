@@ -8,7 +8,7 @@ a {
   transition: color 0.2s;
 }
 header ul li:hover,
-footer ul li:hover,
+footer ul li a:hover,
 .container__more:hover {
   color: #97bbb9;
   transition: color 0.2s;
@@ -104,6 +104,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 100px 0px 40px 0px;
+  margin: 100px 0px 0px 0px;
+  padding: 20px 0px 20px 0px;
   text-transform: lowercase;
+  background: rgba(255, 234, 234, 0.692);
 }
