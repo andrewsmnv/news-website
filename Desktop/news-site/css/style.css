@@ -7,11 +7,15 @@ a {
   color: black;
   transition: color 0.2s;
 }
-header ul li:hover,
+.header-nav ul li a:hover,
 footer ul li a:hover,
 .container__more:hover {
   color: #97bbb9;
   transition: color 0.2s;
+}
+
+.nav__item_active {
+  color: #97bbb9;
 }
 li {
   color: black;
@@ -21,23 +25,26 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 60px 0px;
+  padding: 40px 0px 0px 0px;
+  margin: 0px 0px 50px 0px;
   text-transform: lowercase;
 }
 
 .logo {
   text-transform: lowercase;
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Comfortaa", Helvetica, sans-serif;
 }
-.header-nav ul li,
+.header-nav__ul li,
 .footer-nav ul li,
 .footer__social ul li {
   display: inline-block;
-  margin: 0 20px;
+  margin: 15px 20px;
   font-family: "PT Sans", Helvetica, sans-serif;
   font-size: 20px;
+  transition: display 0.3s;
 }
+
 .container {
   width: 75%;
   margin: auto;
@@ -59,7 +66,7 @@ header {
   transition: background-color 0.3s;
 }
 .item-large:hover {
-  background-color: #b8f0db;
+  background-color: #b9f5df;
   transition: background-color 0.3s;
 }
 .item-medium {
@@ -108,4 +115,24 @@ footer {
   padding: 20px 0px 20px 0px;
   text-transform: lowercase;
   background: rgba(255, 234, 234, 0.692);
+}
+
+.nav__list {
+  display: none;
+  transition: display 0.3s;
+  border-radius: 5px;
+  margin-top: 2px;
+  margin: 0 auto;
+}
+.nav__list li {
+  margin: 8px;
+}
+
+.nav__item:hover .nav__list {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  transition: display 0.3s;
+  background-color: white;
+  padding: 10px;
 }

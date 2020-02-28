@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|PT+Sans&display=swap");
+
+.container {
+  text-align: center;
+  font-family: "PT Sans";
+}
+h1,
+h2 {
+  font-size: 30px;
+}
+.title,
+p {
+  font-size: 20px;
+}
+
+.container__desc {
+  margin: 40px 0px 70px 0;
+}
+
+.mail {
+  color: rgb(99, 148, 253);
+}
+.title__mail {
+  color: rgb(184, 180, 180);
+  margin: 5px 0px 20px 0px;
+}
+
+.header-nav {
+  visibility: hidden;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 0px 0px 0px;
+  margin: 0px 0px 50px 0px;
+  text-transform: lowercase;
+}
+.person {
+  margin-bottom: 30px;
+}
+.person a,
+.person h1,
+.person h2 {
+  margin: 6px;
+}

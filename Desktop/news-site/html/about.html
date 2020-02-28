@@ -4,46 +4,136 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/about.css" />
   </head>
   <body>
     <!-- HEADER SECTION-->
     <header>
-      <a href="#" class="logo"></a>
+      <a href="../index.html"" class="logo">check </a>
       <nav class="header-nav">
-        <ul>
-          <li class="nav__item nav__item_active">Новое</li>
-          <li class="nav__item">Популярное</li>
-          <li class="nav__item">Категории</li>
-          <li class="nav__item">Профиль</li>
+        <ul class="header-nav__ul">
+          <a href="">
+            <li class="nav__item nav__item_active">
+              <a href="../index.html"">Новое</a>
+            </li>
+          </a>
+          <a href="">
+            <li class="nav__item">
+              <a href="../index.html"">Популярное</a>
+            </li>
+          </a>
+          <li class="nav__item nav__item_hover ">
+            <a href="#">Категории</a>
+            <ul class="nav__list">
+              <li>
+                <a href="#">Спорт</a>
+              </li>
+              <li>
+                <a href="#">Космос</a>
+              </li>
+              <li>
+                <a href="#">Наука</a>
+              </li>
+              <li>
+                <a href="#">Политика</a>
+              </li>
+            </ul>
+          </li>
+          <a href="">
+            <li class="nav__item">
+              <a href="#">
+                Профиль
+              </a>
+            </li>
+          </a>
+          <a href="">
+            <li class="nav__item">
+              <a href="#">Поиск</a>
+            </li>
+          </a>
         </ul>
       </nav>
     </header>
 
     <!-- CONTENT SECTION-->
-    <section></section>
+    <section class="container">
+      <h1>Спасибо что используете наш сайт!</h1>
+      <p class="container__desc"> Мы делаем все чтобы сделать его лучше!
+        <br>
+        <br>
+        Если у вас есть предложения или идеи, пишите сюда 
+        <a class="mail" href="mailto:dontsend@here.com">check@you.com</a>
+      </p>
+      <div class="person">
+        <h1 class="title">СЕО</h1>
+        <h2>Курт Кобейн</h2>
+        <a class="title__mail" href="mailto:dontsend@here.com">kobain@gmail.com</a>
+      </div>
+      <div class="person">
+        <h1 class="title">Десигнер</h1>
+        <h2>Тайка Вайтити</h2>
+        <a class="title__mail" href="mailto:dontsend@here.com">heilhello@wiki.com</a>
+      </div>
+      <div class="person">
+        <h1 class="title">Идея и реализация</h1>
+        <h2>Джесси Пинкман</h2>
+        <a class="title__mail" href="mailto:dontsend@here.com">pinkman@jessie.com</a>
+      </div>
+
+
+
+    </section>
 
     <!-- FOOTER SECTION -->
 
     <footer>
-      <a href="#" class="logo"></a>
+
       <nav class="footer-nav">
         <ul>
           <li>
-            <a>О проэкте</a>
+            <a href="about.html">О проэкте</a>
           </li>
           <li>
-            <a>Вакансии</a>
+            <a href="jobs.html">Вакансии</a>
           </li>
           <li>
-            <a>Поддержка</a>
+            <a href="donate.html">Поддержка</a>
           </li>
         </ul>
       </nav>
       <div class="footer__social">
-        <a href="#">Instagram</a>
-        <a href="#">Github</a>
-        <a href="#">Twitter</a>
-        <a href="#">Youtube</a>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/adnrewsnmv/">
+              <img
+                src="https://img.icons8.com/metro/30/000000/instagram-new.png"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/andrewsmnv">
+              <img
+                src="https://img.icons8.com/ios-glyphs/30/000000/github.png"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/adnrewsnmv">
+              <img src="https://img.icons8.com/android/30/000000/twitter.png" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UC5Xl2vVItggEzt8CeP-9N6w?view_as=subscriber"
+            >
+              <img
+                src="https://img.icons8.com/ios-filled/30/000000/youtube.png"
+              />
+            </a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
